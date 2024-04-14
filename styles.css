@@ -1,0 +1,31 @@
+body{
+    background-color: #AADD77;
+}
+
+.pyramid {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 60px; /* Increased box size */
+    height: 60px; /* Increased box size */
+    background-color: #ccc;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 24px; /* Increased font size */
+    font-family: Helvetica, Arial, sans-serif; /* Helvetica font */
+    font-weight: bold; /* Bold font weight */
+    color: #333;
+  }
+  
