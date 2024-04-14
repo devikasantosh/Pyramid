@@ -6,35 +6,56 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="overlay" id="overlay">
+        <div class="overlay-content">
+          <h2>Instructions</h2>
+          <p>Welcome to the Word Pyramid Game!</p>
+          <ul>
+          <li>Your goal is to complete the pyramid by <b>entering valid words.</b></li>
+          <li>Each row must contain <b>all the letters</b> from the previous row.</li>
+          
+        </ul>
+          <p>Example: Make the word NAP like this!</p>
+          <img src="instructions.png" alt="Instructions" style="width: 10%;">
+          <br>
+          <br>
+          <p>Click on a box to enter a letter. Backspace to delete.</p>
+          <button onclick="startGame()">Start Game</button>
+        </div>
+      </div>
+      
+      <div class="game-container" id="game-container">
     <div class="pyramid">
         <div class="row">
-          <div class="box" id="box1"></div>
+          <div class="box" id="box1" contenteditable="true"></div>
         </div>
         <div class="row">
-          <div class="box" id="box2"></div>
-          <div class="box" id="box3"></div>
+          <div class="box" id="box2" contenteditable="true"></div>
+          <div class="box" id="box3" contenteditable="true"></div>
         </div>
         <div class="row">
-          <div class="box" id="box4"></div>
-          <div class="box" id="box5"></div>
-          <div class="box" id="box6"></div>
+          <div class="box" id="box4" contenteditable="true"></div>
+          <div class="box" id="box5" contenteditable="true"></div>
+          <div class="box" id="box6" contenteditable="true"></div>
         </div>
         <div class="row">
-          <div class="box" id="box7"></div>
-          <div class="box" id="box8"></div>
-          <div class="box" id="box9"></div>
-          <div class="box" id="box10"></div>
+          <div class="box" id="box7" contenteditable="true"></div>
+          <div class="box" id="box8" contenteditable="true"></div>
+          <div class="box" id="box9" contenteditable="true"></div>
+          <div class="box" id="box10" contenteditable="true"></div>
         </div>
         <div class="row">
-          <div class="box" id="box11"></div>
-          <div class="box" id="box12"></div>
-          <div class="box" id="box13"></div>
-          <div class="box" id="box14"></div>
-          <div class="box" id="box15"></div>
+          <div class="box" id="box11" contenteditable="true"></div>
+          <div class="box" id="box12" contenteditable="true"></div>
+          <div class="box" id="box13" contenteditable="true"></div>
+          <div class="box" id="box14" contenteditable="true"></div>
+          <div class="box" id="box15" contenteditable="true"></div>
         </div>
       </div>
       <br>
   <h1 align="center">Your word is: PLANT</h1>
+      </div>
+      
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,3 +1,10 @@
+function startGame() {
+    document.getElementById('overlay').style.display = 'none';
+    document.getElementById('game-container').style.display = 'block';
+    // You can add further initialization logic for your game here
+  }
+  
+
 // List of valid words
 const validWords = [
     "a", "al", "an", "ant", "at", "la", "lap", "lat", "na", "nap", 
@@ -98,4 +105,5 @@ const validWords = [
   
   // Initialize event listeners
   addEventListeners();
+  
   
