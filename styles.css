@@ -14,7 +14,7 @@ body{
   
   .overlay-content {
     background-color: rgba(0, 0, 0, 0.7);
-    width: 75%; /* Adjust width as needed */
+    width: 90%; /* Adjust width as needed */
     height: auto;
     color: #f1f1f1;
     font-family: Helvetica, Arial, sans-serif; /* Helvetica font */
